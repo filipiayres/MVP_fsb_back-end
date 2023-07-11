@@ -50,3 +50,6 @@ automaticamente após uma mudança no código fonte.
 ```
 
 Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para verificar o status da API em execução.
+
+
+Lembre-se de manter o local host rodando para o funcionamento do Front-end.
