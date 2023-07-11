@@ -1,0 +1,84 @@
+[2023-07-10 14:21:41,673] DEBUG get_pacientes() L81   1 pacientes econtrados - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L81  
+[2023-07-10 14:21:41,674] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:21:41] "GET /pacientes HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:22:02,115] DEBUG del_produto() L119  Deletando dados sobre produto #Marcos Filipi - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L119 
+[2023-07-10 14:22:02,124] DEBUG del_produto() L128  Deletado paciente #Marcos Filipi - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L128 
+[2023-07-10 14:22:02,125] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:22:02] "DELETE /paciente?nome=Marcos%20Filipi HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:22:10,424] DEBUG get_pacientes() L71   Coletando dados dos pacientes  - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L71  
+[2023-07-10 14:22:10,425] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 14:22:10] "GET /pacientes HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:22:28,136] DEBUG add_paciente() L40   Adicionando paciente de nome: 'Ana' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L40  
+[2023-07-10 14:22:28,146] DEBUG add_paciente() L48   Adicionado paciente de nome: 'Ana' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L48  
+[2023-07-10 14:22:28,147] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 14:22:28] "POST /paciente HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:22:51,917] DEBUG add_paciente() L40   Adicionando paciente de nome: 'Marcos Filipi' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L40  
+[2023-07-10 14:22:51,926] DEBUG add_paciente() L48   Adicionado paciente de nome: 'Marcos Filipi' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L48  
+[2023-07-10 14:22:51,929] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 14:22:51] "POST /paciente HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:23:30,807] ERROR log_exception() L1449 Exception on /paciente [GET] - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_openapi3/scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_openapi3/do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py", line 93, in get_paciente
+    paciente_id = query.id
+AttributeError: 'PacienteBuscaSchema' object has no attribute 'id'
+[2023-07-10 14:23:30,809] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:23:30] "[35m[1mGET /paciente?nome=Ana HTTP/1.1[0m" 500 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:23:32,516] ERROR log_exception() L1449 Exception on /paciente [GET] - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_openapi3/scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_openapi3/do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py", line 93, in get_paciente
+    paciente_id = query.id
+AttributeError: 'PacienteBuscaSchema' object has no attribute 'id'
+[2023-07-10 14:23:32,517] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:23:32] "[35m[1mGET /paciente?nome=Ana HTTP/1.1[0m" 500 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:24:10,259] DEBUG get_pacientes() L71   Coletando dados dos pacientes  - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L71  
+[2023-07-10 14:24:10,260] DEBUG get_pacientes() L81   2 pacientes econtrados - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L81  
+[2023-07-10 14:24:10,261] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:24:10] "GET /pacientes HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:24:35,034] DEBUG add_comentario() L145  Adicionando comentários ao paciente #2 - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L145 
+[2023-07-10 14:24:35,047] DEBUG add_comentario() L165  Adicionado comentário ao paciente #2 - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L165 
+[2023-07-10 14:24:35,049] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:24:35] "POST /cometario HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:24:37,165] DEBUG add_comentario() L145  Adicionando comentários ao paciente #2 - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L145 
+[2023-07-10 14:24:37,175] DEBUG add_comentario() L165  Adicionado comentário ao paciente #2 - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L165 
+[2023-07-10 14:24:37,177] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:24:37] "POST /cometario HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:27:09,465] DEBUG del_produto() L119  Deletando dados sobre produto #Ana - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L119 
+[2023-07-10 14:27:09,474] DEBUG del_produto() L128  Deletado paciente #Ana - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L128 
+[2023-07-10 14:27:09,475] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 14:27:09] "DELETE /paciente?nome=Ana HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 14:27:51,443] ERROR log_exception() L1449 Exception on /paciente [GET] - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_openapi3/scaffold.py", line 109, in wrapper
+    resp = _do_wrapper(
+  File "/home/filipiayres/.local/lib/python3.10/site-packages/flask_openapi3/do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py", line 93, in get_paciente
+    paciente_id = query.id
+AttributeError: 'PacienteBuscaSchema' object has no attribute 'id'

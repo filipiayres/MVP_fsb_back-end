@@ -1,0 +1,46 @@
+[2023-07-10 15:17:01,421] DEBUG add_paciente() L40   Adicionando paciente de nome: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L40  
+[2023-07-10 15:17:01,442] DEBUG add_paciente() L48   Adicionado paciente de nome: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L48  
+[2023-07-10 15:17:01,444] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:17:01] "POST /paciente HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:17:12,689] DEBUG get_pacientes() L71   Coletando dados dos pacientes  - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L71  
+[2023-07-10 15:17:12,690] DEBUG get_pacientes() L81   3 pacientes econtrados - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L81  
+[2023-07-10 15:17:12,690] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 15:17:12] "GET /pacientes HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:17:27,893] DEBUG get_paciente() L94   Coletando dados sobre o paciente #Jose - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L94  
+[2023-07-10 15:17:27,895] DEBUG get_paciente() L106  Paciente encontrado: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L106 
+[2023-07-10 15:17:27,896] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:17:27] "GET /paciente?nome=Jose HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:17:48,667] DEBUG del_produto() L119  Deletando dados sobre produto #Jose - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L119 
+[2023-07-10 15:17:48,677] DEBUG del_produto() L128  Deletado paciente #Jose - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L128 
+[2023-07-10 15:17:48,677] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:17:48] "DELETE /paciente?nome=Jose HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:26,863] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:18:26] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:26,891] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:18:26] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:26,914] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:18:26] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:26,918] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:18:26] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:27,273] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:18:27] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:27,295] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:18:27] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:18:28,843] DEBUG get_pacientes() L71   Coletando dados dos pacientes  - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L71  
+[2023-07-10 15:18:28,845] DEBUG get_pacientes() L81   2 pacientes econtrados - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L81  
+[2023-07-10 15:18:28,845] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 15:18:28] "GET /pacientes HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:19:38,628] DEBUG add_paciente() L40   Adicionando paciente de nome: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L40  
+[2023-07-10 15:19:38,640] DEBUG add_paciente() L48   Adicionado paciente de nome: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L48  
+[2023-07-10 15:19:38,641] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 15:19:38] "POST /paciente HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:20:06,831] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 15:20:06] "OPTIONS /paciente?nome=Jose HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:20:06,837] DEBUG del_produto() L119  Deletando dados sobre produto #Jose - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L119 
+[2023-07-10 15:20:06,844] DEBUG del_produto() L128  Deletado paciente #Jose - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L128 
+[2023-07-10 15:20:06,845] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 15:20:06] "DELETE /paciente?nome=Jose HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:20:52,077] DEBUG add_paciente() L40   Adicionando paciente de nome: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L40  
+[2023-07-10 15:20:52,088] DEBUG add_paciente() L48   Adicionado paciente de nome: 'Jose' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L48  
+[2023-07-10 15:20:52,090] INFO _log() L224  127.0.0.1 - - [10/Jul/2023 15:20:52] "POST /paciente HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:21:17,873] DEBUG get_pacientes() L71   Coletando dados dos pacientes  - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L71  
+[2023-07-10 15:21:17,874] DEBUG get_pacientes() L81   3 pacientes econtrados - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L81  
+[2023-07-10 15:21:17,875] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:21:17] "GET /pacientes HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:21:55,678] DEBUG add_comentario() L145  Adicionando comentários ao paciente #4 - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L145 
+[2023-07-10 15:21:55,693] DEBUG add_comentario() L165  Adicionado comentário ao paciente #4 - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L165 
+[2023-07-10 15:21:55,696] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:21:55] "POST /cometario HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:22:38,965] DEBUG add_paciente() L40   Adicionando paciente de nome: 'Vera' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L40  
+[2023-07-10 15:22:38,981] DEBUG add_paciente() L48   Adicionado paciente de nome: 'Vera' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L48  
+[2023-07-10 15:22:38,982] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:22:38] "POST /paciente HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:22:57,409] DEBUG get_paciente() L94   Coletando dados sobre o paciente #Marcos Filipi - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L94  
+[2023-07-10 15:22:57,411] DEBUG get_paciente() L106  Paciente encontrado: 'Marcos Filipi' - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L106 
+[2023-07-10 15:22:57,413] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:22:57] "GET /paciente?nome=Marcos%20Filipi HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
+[2023-07-10 15:23:27,965] DEBUG del_produto() L119  Deletando dados sobre produto #Vera - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L119 
+[2023-07-10 15:23:27,974] DEBUG del_produto() L128  Deletado paciente #Vera - call_trace=/home/filipiayres/Área de Trabalho/MVP/projeto API/meu_app_back/app.py L128 
+[2023-07-10 15:23:27,975] INFO _log() L224  10.0.2.15 - - [10/Jul/2023 15:23:27] "DELETE /paciente?nome=Vera HTTP/1.1" 200 - - call_trace=/home/filipiayres/.local/lib/python3.10/site-packages/werkzeug/_internal.py L224 
